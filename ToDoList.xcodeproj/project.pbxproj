@@ -14,6 +14,7 @@
 		8C48A73820655C9400EE7732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C48A73620655C9400EE7732 /* LaunchScreen.storyboard */; };
 		8C48A74320655C9500EE7732 /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48A74220655C9500EE7732 /* ToDoListTests.swift */; };
 		8C48A74E20655C9500EE7732 /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48A74D20655C9500EE7732 /* ToDoListUITests.swift */; };
+		8C48A75C20655FC500EE7732 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48A75B20655FC500EE7732 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8C48A74920655C9500EE7732 /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C48A74D20655C9500EE7732 /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		8C48A74F20655C9500EE7732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C48A75B20655FC500EE7732 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				8C48A72D20655C9400EE7732 /* AppDelegate.swift */,
 				8C48A72F20655C9400EE7732 /* ViewController.swift */,
+				8C48A75B20655FC500EE7732 /* ToDo.swift */,
 				8C48A73120655C9400EE7732 /* Main.storyboard */,
 				8C48A73420655C9400EE7732 /* Assets.xcassets */,
 				8C48A73620655C9400EE7732 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C48A75C20655FC500EE7732 /* ToDo.swift in Sources */,
 				8C48A73020655C9400EE7732 /* ViewController.swift in Sources */,
 				8C48A72E20655C9400EE7732 /* AppDelegate.swift in Sources */,
 			);
